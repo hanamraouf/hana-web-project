@@ -310,7 +310,7 @@ const StartPage = () => {
                   />
                 </div>
                 <div className="w-[30vw] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-451px]">
-                  <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[100%] h-[242px] shrink-0 tracking-[-0.14em]">
+                  <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[90%] h-[242px] shrink-0 tracking-[-0.14em]">
                     <p className="m-0">Remnants</p>
                     <p className="m-0">{`of these `}</p>
                     <p className="m-0">Ruins</p>
@@ -332,11 +332,11 @@ const StartPage = () => {
                       src="/SmallLeft@2x.png"
                     />
                   </div>
-                  <div className=" w-[305px] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-329px]">
-                    <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[100%] h-[242px] shrink-0 tracking-[-0.14em] mr-[30px]">
-                      <p className="m-0 text-right">Lie on</p>
-                      <p className="m-0 text-right">{`Your `}</p>
-                      <p className="m-0 text-right">Tongue</p>
+                  <div className=" w-[305px] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-center ml-[-329px]">
+                    <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[90%] h-[242px] shrink-0 tracking-[-0.14em] mr-[30px]">
+                      <p className="m-0 text-left">Lie on</p>
+                      <p className="m-0 text-left">{`Your `}</p>
+                      <p className="m-0 text-left">Tongue</p>
                     </h1>
                   </div>
                 </div>
