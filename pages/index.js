@@ -89,7 +89,7 @@ const StartPage = () => {
                           LINGRA
                         </h1>
                       </div>
-                      <div className="w-[587px] h-[42px] overflow-hidden shrink-0 flex flex-col items-center justify-start mt-[-42px] text-center text-[24px]">
+                      <div className="w-[587px] h-[42px] overflow-hidden shrink-0 flex flex-col items-center justify-start mt-[-42px] text-start text-[24px]">
                         <div className="relative leading-[24px] inline-block w-[587px] h-4 shrink-0 [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">{`Reviving the Ancient Egyptian Language. `}</div>
                       </div>
                     </div>
