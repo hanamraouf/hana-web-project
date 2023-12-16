@@ -40,8 +40,8 @@ const StartPage = () => {
 
   return (
     <div className="relative bg-gray1-200 w-full h-[6144px] overflow-hidden">
-      <section className="absolute top-[60px] left-[88px] w-[1264px] h-[1969px] overflow-hidden flex flex-col items-center justify-center gap-[129px] text-center text-[40px] text-primary-white-100 font-noto-sans-egyptian-hieroglyphs">
-        <div className="w-[1264px] h-[52px] overflow-hidden shrink-0 flex flex-col items-start justify-center">
+      <section className="w-[96vw] h-[1969px] overflow-hidden flex flex-col items-center justify-center gap-[129px] text-center text-[40px] text-primary-white-100 font-noto-sans-egyptian-hieroglyphs m-auto">
+        <div className="w-[90vw] h-[52px] overflow-hidden  flex flex-col items-center justify-center">
           <div className="w-[858px] h-[49px] overflow-hidden shrink-0 flex flex-row items-center justify-between">
             <h2 className="m-0 relative text-inherit leading-[24px] font-normal font-inherit">
               𓅓
