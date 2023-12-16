@@ -270,7 +270,7 @@ const StartPage = () => {
                 <img
                   className="relative w-[330px] h-[170px] object-cover"
                   alt=""
-                  src="/ekb@2x.png"
+                  src="Image_ekb.png"
                 />
                 <img
                   className="relative w-[377px] h-[66px] object-cover"
@@ -280,7 +280,7 @@ const StartPage = () => {
                 <img
                   className="relative w-[300px] h-[138px] object-cover"
                   alt=""
-                  src="/icc-logo-enfold300x138-1@2x.png"
+                  src="Image_icc.png"
                 />
               </div>
             </div>
@@ -289,7 +289,7 @@ const StartPage = () => {
                 <img
                   className="relative w-[235px] h-[213px] object-cover"
                   alt=""
-                  src="/darlel-1@2x.png"
+                  src="/Image_dar.png"
                 />
                 <img
                   className="relative w-[854px] h-60 overflow-hidden shrink-0"
@@ -299,9 +299,9 @@ const StartPage = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch h-[1866px] overflow-hidden shrink-0 flex flex-col items-center justify-start gap-[748px]">
+          <div className="w-[96vw] self-stretch h-[1866px] overflow-hidden shrink-0 flex flex-col items-center justify-start gap-[748px]">
             <div className="w-[96vw] h-[458px] overflow-hidden shrink-0 flex flex-row items-center justify-center m-auto">
-              <div className="w-[524px] h-[422px] overflow-hidden shrink-0 flex flex-row items-start justify-end">
+              <div className="w-[40vw] h-[422px] overflow-hidden shrink-0 flex flex-row items-start justify-end">
                 <div className="w-[497px] h-[422px] overflow-hidden shrink-0 flex flex-col items-center justify-end">
                   <img
                     className="relative rounded-mini w-[497px] h-[385px] object-cover opacity-[0.4]"
@@ -333,9 +333,9 @@ const StartPage = () => {
                   </div>
                   <div className="w-[305px] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-329px]">
                     <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[249px] h-[242px] shrink-0 tracking-[-0.14em]">
-                      <p className="m-0 text-left">Lie on</p>
-                      <p className="m-0 text-left">{`Your `}</p>
-                      <p className="m-0 text-left">Tongue</p>
+                      <p className="m-0 text-right">Lie on</p>
+                      <p className="m-0 text-right">{`Your `}</p>
+                      <p className="m-0 text-right">Tongue</p>
                     </h1>
                   </div>
                 </div>
