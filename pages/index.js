@@ -43,19 +43,19 @@ const StartPage = () => {
       <section className="w-[96vw] h-[1969px] overflow-hidden flex flex-col items-center justify-center gap-[129px] text-center text-[40px] text-primary-white-100 font-noto-sans-egyptian-hieroglyphs m-auto">
         <div className="w-[90vw] h-[52px] overflow-hidden  flex flex-col items-center justify-center">
           <div className="w-[100%] h-[49px] overflow-hidden shrink-0 flex flex-row items-center justify-between">
-            <div className='w-[30vw] items-start'>
-                <h2 className=" w-fit m-0 relative text-inherit leading-[24px] font-normal font-inherit">
-                  𓅓
-                </h2>
-              </div> 
-            <nav className="m-0 w-[50vw] flex flex-row items-start  text-right text-xl text-primary-white-100 font-Trade-Gothic-LT-Extended">
-            <div className=" flex flex-row justify-between w-[50%]">
-            <div className="relative leading-[24px] flex items-center w-[71px] h-[25px] shrink-0">
-                Home
-              </div>
-              <div className="relative leading-[24px]">Learning Path</div>
-              <div className="relative leading-[24px]">Community</div>
+            <div className="w-[30vw] items-start">
+              <h2 className=" w-fit m-0 relative text-inherit leading-[24px] font-normal font-inherit">
+                𓅓
+              </h2>
             </div>
+            <nav className="m-0 w-[50vw] flex flex-row items-start  text-right text-xl text-primary-white-100 font-Trade-Gothic-LT-Extended">
+              <div className=" flex flex-row justify-between w-[50%]">
+                <div className="relative leading-[24px] flex items-center w-[71px] h-[25px] shrink-0">
+                  Home
+                </div>
+                <div className="relative leading-[24px]">Learning Path</div>
+                <div className="relative leading-[24px]">Community</div>
+              </div>
             </nav>
           </div>
         </div>
@@ -301,7 +301,7 @@ const StartPage = () => {
           </div>
           <div className="w-[96vw] self-stretch h-[1866px] overflow-hidden shrink-0 flex flex-col items-center justify-start gap-[748px]">
             <div className="w-[96vw] h-[458px] overflow-hidden shrink-0 flex flex-row items-center justify-center m-auto">
-              <div className="w-[40vw] h-[422px] overflow-hidden shrink-0 flex flex-row items-start justify-end">
+              <div className="w-[30vw] h-[422px] overflow-hidden shrink-0 flex flex-row items-start justify-end">
                 <div className="w-[497px] h-[422px] overflow-hidden shrink-0 flex flex-col items-center justify-end">
                   <img
                     className="relative rounded-mini w-[497px] h-[385px] object-cover opacity-[0.4]"
@@ -309,7 +309,7 @@ const StartPage = () => {
                     src="/SmallLeft@2x.png"
                   />
                 </div>
-                <div className="w-[467px] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-451px]">
+                <div className="w-[30vw] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-451px]">
                   <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[438px] h-[242px] shrink-0 tracking-[-0.14em]">
                     <p className="m-0">Remnants</p>
                     <p className="m-0">{`of these `}</p>
@@ -323,19 +323,20 @@ const StartPage = () => {
                   alt=""
                   src="/CenterWanisPic@2x.png"
                 />
-                <div className="w-[469px] h-[422px] overflow-hidden shrink-0 flex flex-row items-start justify-end ml-[-89px]">
-                  <div className="w-[497px] h-[422px] overflow-hidden shrink-0 flex flex-col items-center justify-end">
+
+                <div className="w-[30vw] h-[422px] overflow-hidden shrink-0 flex flex-row items-start justify-end ml-[-89px]">
+                  <div className="w-[30vw] h-[422px] overflow-hidden shrink-0 flex flex-col items-center justify-end">
                     <img
-                      className="relative rounded-mini w-[497px] h-[385px] object-cover opacity-[0.4]"
+                      className=" relative rounded-mini  h-[385px] object-cover opacity-[0.4]"
                       alt="LieonYourTongue"
                       src="/SmallLeft@2x.png"
                     />
                   </div>
-                  <div className="w-[305px] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-329px]">
+                  <div className=" w-[305px] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-329px]">
                     <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[249px] h-[242px] shrink-0 tracking-[-0.14em]">
-                      <p className="m-0 text-right">Lie on</p>
-                      <p className="m-0 text-right">{`Your `}</p>
-                      <p className="m-0 text-right">Tongue</p>
+                      <p className="m-0 text-center">Lie on</p>
+                      <p className="m-0 text-center">{`Your `}</p>
+                      <p className="m-0 text-center">Tongue</p>
                     </h1>
                   </div>
                 </div>
