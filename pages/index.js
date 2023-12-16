@@ -39,7 +39,7 @@ const StartPage = () => {
   }, []);
 
   return (
-    <div className="relative bg-gray1-200 w-full h-[6144px] overflow-hidden">
+    <div className="relative bg-gray1-200 w-full h-[6144px] overflow-hidden m-auto">
       <section className="w-[96vw] h-[1969px] overflow-hidden flex flex-col items-center justify-center gap-[129px] text-center text-[40px] text-primary-white-100 font-noto-sans-egyptian-hieroglyphs m-auto">
         <div className="w-[90vw] h-[52px] overflow-hidden  flex flex-col items-center justify-center">
           <div className="w-[858px] h-[49px] overflow-hidden shrink-0 flex flex-row items-center justify-between">
@@ -168,7 +168,7 @@ const StartPage = () => {
           </div>
         </div>
       </section>
-      <section className="absolute top-[2190px] left-[-161px] w-[1762px] overflow-hidden flex flex-col items-center justify-center gap-[50px] text-right text-45xl text-gainsboro-200 font-tradegothic-lt-extended">
+      <section className="top-[2190px] left-[-161px] w-[96vw] overflow-hidden flex flex-col items-center justify-center gap-[50px] text-right text-45xl text-gainsboro-200 font-tradegothic-lt-extended m-auto">
         <div className="self-stretch h-[1176px] overflow-hidden shrink-0 flex flex-col items-center justify-start text-[92px]">
           <div className="w-[1762px] h-[1004px] overflow-hidden shrink-0 flex flex-col items-start justify-center">
             <div className="w-[1762px] h-[905px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
@@ -190,7 +190,7 @@ const StartPage = () => {
                   />
                 </div>
               </div>
-              <div className="w-[1369px] h-[1020px] overflow-hidden shrink-0 flex flex-row items-start justify-start ml-[-531px]">
+              <div className="w-[96vw] h-[1020px] overflow-hidden shrink-0 flex flex-row items-center justify-center ml-[-531px]">
                 <div className="w-[925px] h-[566px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
                   <div className="w-[736px] h-[566px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
                     <div className="shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-[625px] h-[566px] overflow-hidden shrink-0 flex flex-col items-center justify-end opacity-[0.55]">
@@ -254,7 +254,7 @@ const StartPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-[664px] h-[126px] overflow-hidden shrink-0 flex flex-col items-start justify-start py-3 px-0 box-border text-center text-gainsboro-400">
+        <div className="w-[96vw] h-[126px] overflow-hidden shrink-0 flex flex-col items-center justify-center m-auto py-3 px-0 box-border text-center text-gainsboro-400">
           <h1 className="m-0 relative text-inherit leading-[24px] font-normal font-inherit inline-block w-[642px] h-[81px] shrink-0 [text-shadow:0px_4px_4px_rgba(0,_0,_0,_0.25)]">
             SPONSORED BY
           </h1>
