@@ -310,7 +310,7 @@ const StartPage = () => {
                   />
                 </div>
                 <div className="w-[30vw] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-451px]">
-                  <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[438px] h-[242px] shrink-0 tracking-[-0.14em]">
+                  <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[100%] h-[242px] shrink-0 tracking-[-0.14em]">
                     <p className="m-0">Remnants</p>
                     <p className="m-0">{`of these `}</p>
                     <p className="m-0">Ruins</p>
@@ -333,10 +333,10 @@ const StartPage = () => {
                     />
                   </div>
                   <div className=" w-[305px] h-[340px] overflow-hidden shrink-0 flex flex-col items-center justify-end ml-[-329px]">
-                    <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[249px] h-[242px] shrink-0 tracking-[-0.14em]">
-                      <p className="m-0 text-center">Lie on</p>
-                      <p className="m-0 text-center">{`Your `}</p>
-                      <p className="m-0 text-center">Tongue</p>
+                    <h1 className="m-0 relative text-inherit  font-normal font-inherit inline-block w-[100%] h-[242px] shrink-0 tracking-[-0.14em] mr-[30px]">
+                      <p className="m-0 text-right">Lie on</p>
+                      <p className="m-0 text-right">{`Your `}</p>
+                      <p className="m-0 text-right">Tongue</p>
                     </h1>
                   </div>
                 </div>
