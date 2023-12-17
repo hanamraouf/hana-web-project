@@ -174,7 +174,7 @@ const StartPage = () => {
         </div>
       </section>
       <section className="top-[2190px] left-[-161px] w-[96vw] overflow-hidden flex flex-col items-center justify-center gap-[50px] text-right text-45xl text-gainsboro-200 font-tradegothic-lt-extended m-auto">
-      <div className="self-stretch h-[1176px] overflow-hidden shrink-0 flex flex-col items-center justify-start text-[92px]">
+        <div className="self-stretch h-[1176px] overflow-hidden shrink-0 flex flex-col items-center justify-start text-[92px]">
           <div className="w-[1762px] h-[1004px] overflow-hidden shrink-0 flex flex-col items-start justify-center">
             <div className="w-[1762px] h-[905px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
               <div className="w-[735px] h-[850px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
@@ -342,6 +342,8 @@ const StartPage = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="flex flex-col">
               <Spline scene="https://prod.spline.design/oUApipQvmnvbDzl0/scene.splinecode" />
             </div>
             <footer className="w-[1440px] overflow-hidden flex flex-col items-center justify-start gap-[300px] text-left text-3xl text-lightgray font-tradegothic-lt-extended">
