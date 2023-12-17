@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": false,
+    "naming": "Pascal Case",
+    "unit": "px",
+    "framework": "nextjs",
+    "styling": "Tailwind"
+  },
+  "locofyConfig": {
+    "project_name": "hana-web-project",
+    "id": "657615bc58783d3a83605a6e",
+    "framework": "react-nextjs",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "/Users/mac/Downloads/hana-web-project/src/components",
+    "screensPath": "/Users/mac/Downloads/hana-web-project/pages",
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Pascal Case"
+  }
+}

@@ -173,7 +173,7 @@ const StartPage = () => {
         </div>
       </section>
       <section className="top-[2190px] left-[-161px] w-[96vw] overflow-hidden flex flex-col items-center justify-center gap-[50px] text-right text-45xl text-gainsboro-200 font-tradegothic-lt-extended m-auto">
-        <div className="self-stretch h-[1176px] overflow-hidden shrink-0 flex flex-col items-center justify-start text-[92px]">
+      <div className="self-stretch h-[1176px] overflow-hidden shrink-0 flex flex-col items-center justify-start text-[92px]">
           <div className="w-[1762px] h-[1004px] overflow-hidden shrink-0 flex flex-col items-start justify-center">
             <div className="w-[1762px] h-[905px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
               <div className="w-[735px] h-[850px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
@@ -194,7 +194,7 @@ const StartPage = () => {
                   />
                 </div>
               </div>
-              <div className="w-[96vw] h-[1020px] overflow-hidden shrink-0 flex flex-row items-center justify-center ml-[-531px]">
+              <div className="w-[1369px] h-[1020px] overflow-hidden shrink-0 flex flex-row items-start justify-start ml-[-531px]">
                 <div className="w-[925px] h-[566px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
                   <div className="w-[736px] h-[566px] overflow-hidden shrink-0 flex flex-row items-start justify-start">
                     <div className="shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-[625px] h-[566px] overflow-hidden shrink-0 flex flex-col items-center justify-end opacity-[0.55]">
