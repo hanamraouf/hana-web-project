@@ -1,3 +1,4 @@
+import Spline from "@splinetool/react-spline";
 import { useCallback, useEffect } from "react";
 
 const StartPage = () => {
@@ -341,6 +342,7 @@ const StartPage = () => {
                   </div>
                 </div>
               </div>
+              <Spline scene="https://prod.spline.design/oUApipQvmnvbDzl0/scene.splinecode" />
             </div>
             <footer className="w-[1440px] overflow-hidden flex flex-col items-center justify-start gap-[300px] text-left text-3xl text-lightgray font-tradegothic-lt-extended">
               <div className="w-[238px] overflow-hidden flex flex-col items-start justify-center">
